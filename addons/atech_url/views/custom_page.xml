@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="templates_access_denied" name="Access Denied">
+        <t t-name="access_denied">
+            <div class="access-denied-container">
+                <h1 class="access-denied-heading">You do not have permission to access this website</h1>
+                <button class="access-denied-button" onclick="window.location.href='https://www.youtube.com'">Go back to YouTube</button>
+            </div>
+        </t>
+    </template>
+</odoo>

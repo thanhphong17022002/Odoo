@@ -1,0 +1,26 @@
+// _access_denied.scss
+
+.access-denied-container {
+    text-align: center;
+    margin-top: 50px;
+
+    .access-denied-heading {
+        font-size: 24px;
+        color: #ff0000;
+    }
+
+    .access-denied-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}
